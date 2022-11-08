@@ -1,0 +1,35 @@
+#Ignore thumbnails created by Windows
+Thumbs.db
+
+#Ignore files built by Visual Studio
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+_[Dd]ebug*/
+*.sbr
+obj/
+[Rr]elease*/
+_[Rr]elease*/
+packages/
+packages.7z
+*.sdf
+*.opensdf
+Interop.*
+*.ipch
+*_i.h
+*.tlb
+.vs/
+dlldata.c
+NO_SOURCE_CONTROL/
+node_modules/

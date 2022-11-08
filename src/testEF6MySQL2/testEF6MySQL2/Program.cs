@@ -1,5 +1,4 @@
-﻿using DsnPlus.Core.Exceptions;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,7 +28,8 @@ namespace testEF6MySQL2
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.GetMessage());
+                Console.WriteLine(ex.Message);
+                //Console.WriteLine(ex.GetMessage());
             }
         }
     }
