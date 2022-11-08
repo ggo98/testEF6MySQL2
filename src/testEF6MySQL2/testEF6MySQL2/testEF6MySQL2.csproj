@@ -68,6 +68,15 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="__data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="P:\DSNP\APIs\dotnet\DsnPlus.Core\DsnPlus.Core.csproj">
+      <Project>{349f1fa2-73cb-4a7f-9f51-f084a4708e27}</Project>
+      <Name>DsnPlus.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
